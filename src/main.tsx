@@ -12,7 +12,6 @@ const config = {
   scope: [ 'openid','profile' ]
 };
 
-
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <AuthProvider config={ config }>
